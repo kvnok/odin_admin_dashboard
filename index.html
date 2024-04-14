@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<div class="sidebar">
+  <div class="logo">
+    <img src="pics/wow.png" class="logo-img" />
+    <h1>Forum</h1>
+  </div>
+  <div class="sections">
+    <ul></ul>
+  </div>
+  <div class="settings">
+    <ul></ul>
+  </div>
+</div>
+
+<div class="header">
+  <div class="search">
+    <img src="img/magnify.svg" class="icon" />
+    <form action="" method="get">
+      <input type="text" name="searchbar" id="searchbar" />
+    </form>
+  </div>
+  <div class="profile">
+    <img src="img/bell-ring-outline.svg" class="icon" />
+    <img src="pics/dragon.jpg" class="user-pic small" />
+    <h3 class="username small">kvn</h3>
+  </div>
+  <div class="welcome">
+    <img src="pics/dragon.jpg" class="user-pic large" />
+    <div class="greetings">
+      <p>Hi there,</p>
+      <p class="username large">kvn (@kvnok)</p>
+    </div>
+  </div>
+  <div class="actions">
+    <button>New</button>
+    <button>Upload</button>
+    <button>Share</button>
+  </div>
+</div>
+
+<div class="content">
+  <div class="projects-container">
+    <h3>Projects</h3>
+    <div class="card-holder" id="cardHolder"></div>
+  </div>
+  <div class="announcements">
+    <h3>Announcements</h3>
+    <div class="announcement-container"></div>
+  </div>
+  <div class="trending">
+    <h3>Trending</h3>
+    <div class="trending-container">
+      <img src="pics/idol.jpg" alt="profile-pic" />
+      <div class="user-info">
+        <h4>@idol</h4>
+        <p>Idoling or idling</p>
+      </div>
+      <img src="pics/titan.jpg" alt="profile-pic" />
+      <div class="user-info">
+        <h4>@titan</h4>
+        <p>In the mountains</p>
+      </div>
+      <img src="pics/troll.jpg" alt="profile-pic" />
+      <div class="user-info">
+        <h4>@mojo</h4>
+        <p>Easy come, easy go</p>
+      </div>
+      <img src="pics/warlock.jpg" alt="profile-pic" />
+      <div class="user-info">
+        <h4>@warlock</h4>
+        <p>Wielding inner power</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+<html>
